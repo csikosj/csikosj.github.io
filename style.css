@@ -1,0 +1,131 @@
+div {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.fejlec {
+  width: auto;
+  height: 400px;
+  /*background: red;*/
+  margin: 0px;
+  padding-left: 20%;
+  /*align-items: flex-start;
+  align-content: flex-end;*/ 
+}
+
+img {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 380px;
+  z-index:-1;
+
+}
+
+#pozicio{
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+p ,ul{
+  font-size: 23px; 
+  font-family: Josefin Sans;
+  color: #222 grey;
+  margin-top: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+h1 {
+  font-size: 40px; 
+  font-family: Abril Fatface;
+  color: #222 grey;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  margin-left: 6%;
+  /*background-color: blue;
+  height: 5px;*/
+ 
+}
+
+h2 {
+  font-size: 80px; 
+  font-family: Abril Fatface;
+  color: #222 grey;
+  /*background-color: lime;*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 6%;
+  padding-bottom: 0px;
+  
+}
+
+.lista {
+  width: 50%;
+  height: auto;
+  /*background-color: yellow;*/
+  margin-left: 25%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  /*border: 2px solid blue;*/
+}  
+
+.bekezdes {
+  width: 50%;
+  height: 50px;;
+  /*background: green;*/
+  margin-left: 25%;
+  padding: 0px;
+  /*border: 2px solid blue;*/
+  /*padding: 0px;*/
+}
+
+.idezet {
+  width: 800px;
+  height: auto;
+  color: white;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 40px;
+  /*padding-top: 30px;
+  padding-bottom: 30px;*/
+  text-align: center;
+
+  font-family: Abril Fatface;
+  background-color: gray;
+  font-size: 50px;
+  position: relative;
+  
+}
+
+.idezet #macska {
+  color: white;
+  font-size: 120px;
+  text-align: left;
+  position: absolute;
+  left: 4px;
+  top: -30px;
+  padding-top: 1px;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+h3 {
+  color: #222 grey;
+  font-size: 25px;
+  font-family: Merriweather;
+}
+
+#vonal {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid black;
+}
